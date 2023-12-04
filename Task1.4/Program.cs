@@ -4,11 +4,11 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("13");
+        Console.WriteLine("Введітьперше значення:");
         int number1 = int.Parse(Console.ReadLine());
-        Console.WriteLine("36");
+        Console.WriteLine("Введіть друге значення:");
         int number2 = int.Parse(Console.ReadLine());
-        Console.WriteLine("69");
+        Console.WriteLine("Введіть третє значення:");
         int number3 = int.Parse(Console.ReadLine());
 
         int maxNumber = Math.Max(Math.Max(number1, number2), number3);
